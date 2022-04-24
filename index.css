@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    color: beige;
+}
+h1{
+    font-size: 44px;
+    text-align: center;
+}
+#voices{
+    background-color: black;
+}
+.Voice-cnt{
+    margin: 20px 32px;
+    padding: 12px;
+    /* background-color: lightgreen; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.Voice-cnt>h2{
+    margin: 8px 12px;
+    font-size: 34px ;
+    text-shadow: 3px 0px 12px rgba(255, 255, 255, 0.77);
+}
+.Voice-cnt >select{
+    margin: 3px 12px;
+    width: 100%;
+    height: 30px;
+    /* background-color: aqua; */
+    color: white;
+}
+.container{
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    /* background-color: rgb(0, 134, 252); */
+    /* justify-content: space-around; */
+
+}
+.container div{
+    /* background-color: lightcoral; */
+    margin: 12px;
+    padding: 14px 16px;
+}
+.container>textarea{
+    margin: 12px auto 12px 30px;
+    width: 100%;
+    height: 40vh;
+    font-size: 24px;
+}
+.container button{
+    margin: 0px 8px;
+    width: 120px;
+    padding: 12px 0px;
+    /* color: red; */
+    border: none;
+    border-radius: 22px;
+    text-shadow: 3px 3px 8px black;
+    font-size: 22px ;
+    color: white;
+    font-weight: 700;
+    transition: transform .2s  ease-in;
+}
+.ctrl{
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+.container button:hover{
+    transform: scale(.9);
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: lightpink; */
+}
+.speechSection{
+    /* background-color: lightcyan; */
+}
+.controls{
+    
+    /* background-color: bisque; */
+}
+#start{
+    background-color: green;
+    box-shadow: 2px 2px 12px rgb(44, 236, 44);
+}
+#cancel{
+    background-color: red;
+    box-shadow: 2px 2px 12px rgb(178, 30, 30);
+}
+#resume{
+    background-color: greenyellow;
+    box-shadow: 2px 2px 12px rgb(151, 237, 23);
+}
+#pause{
+    background-color: royalblue;
+    box-shadow: 2px 2px 12px rgb(49, 155, 220);
+}
+@media screen and (max-width:1200px){
+    .ctrl{
+        margin-top: 40%;
+        height: 60vh ;
+    }
+}
+@media screen and (max-width:800px){
+    .ctrl{
+        margin: 12px;
+        height: 20vh ;
+    }
+    main{
+        flex-direction: column;
+    }
+    .container button{
+        margin: 0px 6px;
+        width: 100px;
+        font-size: 18px ;
+        
+    }
+}
+@media screen and (max-width:500px){
+   
+    .Voice-cnt >select{
+       margin: 0px;
+    }
+    .container{
+        width: 100%;
+        padding: 8px;
+    }
+    .container div{
+       
+        padding: 14px 6px;
+    }
+    .props{
+        width: 100%;
+        flex-direction: column;
+    }
+    .props div{
+        width: 100%;
+        text-align: center;
+    }
+    .container button{
+        margin: 0px 2px;
+        width: 80px;
+        font-size: 16px ;
+        font-weight: 500;
+        
+    }
+}

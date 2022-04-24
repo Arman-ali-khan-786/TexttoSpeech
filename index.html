@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Text to Speech</title>
+  </head>
+  <body>
+    <h1>Text to Speech</h1>
+    <main>
+      <div class="speechSection">
+        <div class="Voice-cnt">
+          <h2 >Select Voice</h2>
+          <select id="voices"></select>
+        </div>
+        <div class="container">
+          <textarea name="" id="text" cols="50" rows="10"></textarea>
+        </div>
+        <div class="container">
+          <div>
+            <p>Volume</p>
+            <input type="range" min="0" max="1" value="1" step="0.1" id="volume" />
+            <span id="label-v" class="">1</span>
+          </div>
+          <div>
+            <p class="lead">Rate</p>
+            <input type="range" min="0.1" max="10" value="1" id="rate" step="0.1" />
+            <span id="label-r" class="">1</span>
+          </div>
+          <div>
+            <p>Pitch</p>
+            <input type="range" min="0" max="2" value="1" step="0.1" id="pitch" />
+            <span id="label-p" class="">1</span>
+          </div>
+        </div>
+      </div>
+       
+      <div class="controls">
+        <div class="container ctrl">
+          <button id="start">start</button>
+          <button id="cancel">cancel</button>
+          <button id="resume">resume</button>
+          <button id="pause">pause</button>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="index.js"></script>
+</html>
