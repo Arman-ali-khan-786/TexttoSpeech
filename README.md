@@ -21,10 +21,6 @@ As per name it converts text written into speech.
 3) click on the play button and listen the speech.
 
 
-
-
-
-
 ## Authors
 
 - [@Arman-ali-khan-786](https://github.com/Arman-ali-khan-786)
@@ -36,7 +32,7 @@ As per name it converts text written into speech.
 
 ## Support
 
-For support, email fake@fake.com or join our Slack channel.
+For support, email alikhanarman786@gmail.com. or contact through linkedIn profile.
 
 
 ## Contribute
