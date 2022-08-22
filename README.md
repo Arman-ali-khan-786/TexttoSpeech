@@ -24,7 +24,7 @@ As per name it converts text written into speech.
 ## Authors
 
 - [@Arman-ali-khan-786](https://github.com/Arman-ali-khan-786)
-- [@Pdfulkar](https://github.com/Pdfulkar)
+
 ## Screenshots
 
 ![App Screenshot](https://github.com/Pdfulkar/TexttoSpeech/blob/master/ScreenshotTTS.png?raw=true)
@@ -35,8 +35,10 @@ As per name it converts text written into speech.
 For support, email alikhanarman786@gmail.com. or contact through linkedIn profile.
 
 
-## Contribute
-Contributions are always welcome! Please read the contribution guidelines first.
+## Contributors :
+ ** Contributions are always welcome! Please read the contribution guidelines first.
+ <br>
+ - [@Pdfulkar](https://github.com/Pdfulkar)
 
 
 
