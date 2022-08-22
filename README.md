@@ -11,8 +11,8 @@ As per name it converts text written into speech.
 ## Some useful links
 
  - [TTS Site](https://arman-ali-khan-786.github.io/TexttoSpeech/)
- - [README](https://github.com/Pdfulkar/TexttoSpeech/tree/master#readme)
- - [CONTRIBUTIONS.md](https://github.com/Pdfulkar/TexttoSpeech/blob/master/CONTRIBUTIONS)
+ - [README](https://github.com/Arman-ali-khan-786/TexttoSpeech/blob/master/README.md)
+ - [CONTRIBUTIONS.md](https://github.com/Arman-ali-khan-786/TexttoSpeech/blob/master/CONTRIBUTIONS.md)
 
 
 ## Steps to use the TTS.
