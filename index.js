@@ -1,7 +1,7 @@
 let volume = document.getElementById("volume");
 let rate = document.getElementById("rate");
 let pitch = document.getElementById("pitch");
-let select = document.querySelector("#voices");
+let select = document.getElementById("voices");
 let controlButton = document.querySelectorAll("button");
 let text = document.getElementById("text");
 
@@ -13,14 +13,27 @@ console.log(volume,rate,pitch);
 let sp = new SpeechSynthesisUtterance();
 sp.lang = "en";
 let spOptions = [];
-window.speechSynthesis.onvoiceschanged = () =>{
+
+// window.speechSynthesis.onvoiceschanged = () =>{
+//     spOptions = window.speechSynthesis.getVoices();
+//     sp.voice = spOptions[0];
+//     spOptions.forEach((voice , i )=>{
+//         select.options[i] = new Option(voice.name,i);
+//     })
+// }
+
+function populateSelectList(){
     spOptions = window.speechSynthesis.getVoices();
     sp.voice = spOptions[0];
     spOptions.forEach((voice , i )=>{
         select.options[i] = new Option(voice.name,i);
     })
 }
+populateSelectList()
 
+if (window.speechSynthesis.onvoiceschanged !== undefined) {
+  window.speechSynthesis.onvoiceschanged = populateSelectList;
+}
 
 volume.addEventListener('input',()=>{
     const volumeValue = volume.value;
