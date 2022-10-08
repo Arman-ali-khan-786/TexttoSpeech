@@ -1,4 +1,5 @@
 * {
+  -webkit-tap-highlight-color: transparent;
   --icon-size: 14px;
   margin: 0%;
   padding: 0%;
@@ -55,7 +56,7 @@ h1 {
   height: 40vh;
   font-size: 24px;
 }
-.container button {
+.ctrl button {
   margin: 0px 8px;
   width: 120px;
   padding: 12px 0px;
@@ -76,7 +77,7 @@ h1 {
   align-items: center;
   /* background-color: black; */
 }
-.container button:hover {
+.ctrl button:hover {
   transform: scale(0.9);
 }
 main {
@@ -149,7 +150,7 @@ main {
 
 @media screen and (max-width: 1200px) {
   .ctrl {
-    margin-top: 40%;
+    margin-top: 30%;
     height: 60vh;
   }
 }
@@ -161,7 +162,7 @@ main {
   main {
     flex-direction: column;
   }
-  .container button {
+  .ctrl button {
     margin: 0px 6px;
     width: 100px;
     font-size: 18px;
@@ -171,12 +172,31 @@ main {
   .Voice-cnt > select {
     margin: 0px;
   }
+  h1 {
+    font-size: 38px;
+    margin-top: 15px;
+  }
+  .Voice-cnt > h2 {
+    margin: 8px 12px;
+    font-size: 28px;
+  }
   .container {
     width: 100%;
-    padding: 8px;
+    padding: 2px 6px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container > textarea{
+    margin: 12px 20px 0px;
+    height: 30vh;
+    font-size: 16px;
   }
   .container div {
-    padding: 14px 6px;
+    padding: 2px 6px;
+  }
+  .ctrl{
+    margin: 2px 12px;
+    height: 10vh;
   }
   .props {
     width: 100%;
@@ -186,9 +206,9 @@ main {
     width: 100%;
     text-align: center;
   }
-  .container button {
-    margin: 0px 2px;
-    width: 80px;
+  .ctrl button {
+    margin: 2px 6px;
+    width: 70px;
     font-size: 16px;
     font-weight: 500;
   }
