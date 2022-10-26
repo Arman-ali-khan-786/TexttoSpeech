@@ -1,5 +1,5 @@
-< align="center">
-![Logo](https://github.com/Pdfulkar/TexttoSpeech/blob/master/texttospeech.png?raw=true)
+
+   ![Logo](https://github.com/Pdfulkar/TexttoSpeech/blob/master/texttospeech.png?raw=true)
 
 
 # TTS( TextToSpeech )
