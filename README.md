@@ -1,6 +1,6 @@
-
+<div style="width:100%;">
 ![Logo](https://github.com/Pdfulkar/TexttoSpeech/blob/master/texttospeech.png?raw=true)
-
+</div>
 
 # TTS( TextToSpeech )
 
