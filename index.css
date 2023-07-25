@@ -8,20 +8,22 @@
   text-decoration: none;
 }
 body {
-  background-color: black;
-  color: beige;
+  background-color: darkcyan;
+  color: skyblue;
 }
 h1 {
-  font-size: 44px;
-  text-align: center;
+  font-size: 5rem;
+  text-align: 50% 50%;
 }
 #voices {
-  background-color: black;
+  background-color: darkkhaki;
 }
 .Voice-cnt {
   margin: 20px 32px;
   padding: 12px;
+  
   /* background-color: lightgreen; */
+  
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -36,7 +38,7 @@ h1 {
   width: 100%;
   height: 30px;
   /* background-color: aqua; */
-  color: white;
+  color: darkgray;
 }
 .container {
   width: 100%;
@@ -46,7 +48,9 @@ h1 {
   /* justify-content: space-around; */
 }
 .container > div {
+  
   /* background-color: lightcoral; */
+  
   margin: 12px;
   padding: 14px 16px;
   width: 190px;
