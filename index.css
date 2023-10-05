@@ -149,16 +149,20 @@ main {
     no-repeat;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .ctrl {
     margin-top: 30%;
     height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .ctrl {
     margin: 12px;
     height: 20vh;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 160px));
   }
   main {
     flex-direction: column;
@@ -169,7 +173,7 @@ main {
     font-size: 18px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .Voice-cnt > select {
     margin: 0px;
   }
@@ -198,6 +202,8 @@ main {
   .ctrl{
     margin: 2px 12px;
     height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 100px));
   }
   .props {
     width: 100%;
